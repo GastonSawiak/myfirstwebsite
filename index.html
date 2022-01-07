@@ -1,0 +1,228 @@
+<html>
+<head>
+    <title>Crux Consulting Argentina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <section id="banner">
+        <img src="img/CRUXV2.png" class="logo">
+        <div class="banner-text">
+            <h1>CONSULTORA</h1>
+            <p>"Contrata la actitud y Entrena la habilidad"</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Descubre</a>
+                <a href="#"><span></span>Leer Mas</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+        <ul>
+            <li><a href="#banner">INICIO</a></li>
+            <li><a href="#feature">QUIENES SOMOS</a></li>
+            <li><a href="#servicio">SERVICIOS</a></li>
+            <li><a href="#testimonios">TESTIMONIOS</a></li>
+            <li><a href="#footer">CONTACTO</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu.png" id="menu">
+    </div>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "img/close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "img/menu.png";
+            }
+        }
+    </script>
+
+<!--Quienes somos-->
+
+   <section id="feature">
+    <div class="title-text">
+        <p>NOSOTROS</p>
+        <h1>Porque elegirnos</h1>
+    </div>
+    <div class="nosotros-box">
+        <div class="nosotrosa">
+            <h1>Tenemos experiencia</h1>
+            <div class="nosotros-desc">
+                <div class="nosotros-icon">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+                <div class="nosotros-text">
+                    <p><br>
+                        Trabajar bajo profesionalismo es nuestra maxima prioridad, dando <br>
+                        herramientas para poder mejorar el potencial de su empresa.<br>
+                        <br>
+                        Tratamos la innovación y la estructura como maxima prioridad.<br>
+                        <br>
+                        Nos enfocamos en que su organización este preparada para el futuro.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="nosotrosa-img">
+            <img src="img/pic1.jpg">
+        </div>
+    </div>
+</section>
+
+<!--servicio-->
+
+<section id="servicio">
+    <div class="title-text2">
+        <p>NUESTROS SERVICIOS</p>
+        <h1>Que ofrecemos</h1>
+    </div>
+    <div class="servicio-box">
+        <div class="solo-servicio">
+            <img src="img/foto1.jpg">
+            <div class="overlay"></div>
+            <div class="servicio-desc">
+                <h3>Estudios de Mercado</h3>
+                <hr>
+                <p>La consultoría ayuda a investigar y analizar el mercado y el producto de la empresa o servicio.<br>
+                   A partir de este informe se obtienen datos para ayudar a identificar los problemas,<br>
+                   minimizar los riegos, respaldar las decisiones y comprobar si el negocio funciona correctamente.</p>
+            </div>
+        </div>
+        <div class="solo-servicio">
+            <img src="img/foto2.jpg">
+            <div class="overlay"></div>
+            <div class="servicio-desc">
+                <h3>Subcontratación</h3>
+                <hr>
+                <p>Los consultores aconseja a las empresas en el proceso empresarial de la subcontratación.<br>
+                   La empresa subcontratada escogida lleva a cabo actividades y servicios de corta duración para la empresa.<br>
+                   La subcontratación, o outsourcing, es muy frecuente utilizar la subcontratación para externalizar actividades.</p>
+            </div>
+        </div>
+        <div class="solo-servicio">
+            <img src="img/foto3.jpg">
+            <div class="overlay"></div>
+            <div class="servicio-desc">
+                <h3>Selección de Personal</h3>
+                <hr>
+                <p>Las consultorías ofrecen un servicio especializado y de alta calidad para la selección de profesionales<br>
+                   evaluando sus cualidades. Así que se encarga de todo el proceso de contratación desde su experiencia y competencia.</p>
+            </div>
+        </div>
+        <div class="solo-servicio">
+            <img src="img/foto4.jpg">
+            <div class="overlay"></div>
+            <div class="servicio-desc">
+                <h3>Gestiones Comerciales</h3>
+                <hr>
+                <p>La consultoría se encarga de repasar todas las propuestas de una empresa.<br>
+                   Con el propósito de ofrecer una opinión exterior con el objetivo de proponer <br> 
+                   mejoras para resaltar la esencia de la empresa y/o el producto.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--testimonios-->
+
+<section id="testimonios">
+    <div class="title-text3">
+        <p>TESTIMONIOS</p>
+        <h1>Que dicen los clientes</h1>
+    </div>
+    <div class="testimonios-row">
+        <div class="testimonios-col">
+            <div class="user">
+            <img src="img/pfp1.jpg.jpg">
+            <div class="user-info">
+                <h4>Henry Bachemham <i class="fab fa-twitter"></i>
+                </h4>
+                <small>@henhemahm</small>
+                </div>
+            </div>
+            <p>Very professional guys! Hector was a person to be confortable with.
+               It's obvious this guy cares about innovation. Would recommend!!!</p>
+        </div>
+        <div class="testimonios-col">
+            <div class="user">
+            <img src="img/pfp2.jpg.png">
+            <div class="user-info">
+                <h4>Martin Hoffmann <i class="fab fa-twitter"></i>
+                </h4>
+                <small>@hoffmannmart</small>
+                </div>
+            </div>
+            <p>Hace rato necesitaba repensar la estructura interna de mi empresa,
+                los circuitos, recursos humanos, y me arreglaron mas de lo que yo pensaba
+                que necesitaba. Muy recomendados.</p>
+        </div>
+        <div class="testimonios-col">
+            <div class="user">
+            <img src="img/pfp3.jpg.png">
+            <div class="user-info">
+                <h4>Sofia Arrieta<i class="fab fa-twitter"></i>
+                </h4>
+                <small>@laSofiahre</small>
+                </div>
+            </div>
+            <p>La verdad, super profesional! Se fueron de la empresa dejandola 
+                totalmente ronavada...Recomendadisimos.</p>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+
+<section id="footer">
+    <img src="img/CRUXV2.3.png" class="footer-img">
+    <div class="title-text4">
+        <p>CONTACTO</p>
+        <h1>Escribanos!</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Horarios</h1>
+            <P><i class="fas fa-angle-double-right"></i>Lunes a Viernes - 15:00hs a 21:00hs</P>
+            <P><i class="fas fa-angle-double-right"></i>Contacto via Mail y What's App</P>
+        </div> 
+        <div class="footer-right">
+            <h1>Habla con nostros</h1>
+            <p><i class="fas fa-map-marked-alt"></i> Necochea 135, Mendoza, Argentina</p>
+            <p><i class="fas fa-envelope"></i> cruxconsulting@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> +54 9 261 6777766</p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.instagram.com/">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://es-la.facebook.com/">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://ar.linkedin.com/">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</section>
+</body>
+</html>
